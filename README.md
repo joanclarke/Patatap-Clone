@@ -1,0 +1,1 @@
+A simplified clone of the Patatap App. Patatap is a portable animation and sound kit which creates melodies and shapes when a keyboard key is touched.
