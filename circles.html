@@ -9,13 +9,21 @@
     <title>Circles</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/circles.css">
+    <script type="text/paperscript" canvas="myCanvas">
+      function onKeyDown(event) {
+        new Path.Circle(new Point(100, 100), 10).fillColor = 'orange';
+      }
+      
+      
+      
+    </script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <script src="" async defer></script>
+    <canvas id="myCanvas" resize></canvas>
+    <script type="text/javascript" src="paper-full.js" async defer></script>
   </body>
 </html>
